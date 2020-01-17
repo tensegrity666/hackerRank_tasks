@@ -19,15 +19,7 @@ function vowelsAndConsonants(s) {
     };
   };
 
-  arr = output_v.concat(output);
-
-  if (arr.length >= 40) {
-    arr = arr.slice(0, 20).join('\n').concat(TRUNC);
-  } else {
-    arr = arr.slice(0, 20).join('\n');
-  }
-
-  console.log(arr);
+  arr = output_v.concat(output).join('\n');
   return arr;
 }
 
