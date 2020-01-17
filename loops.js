@@ -1,10 +1,9 @@
 'Use strict';
 
 const s = 'javascriptloops';
-const VOWELS = 'aeiou';
-
 
 function vowelsAndConsonants(s) {
+  const VOWELS = 'aeiou';
   const output_v = [];
   const output = [];
   let arr = [];
@@ -14,7 +13,7 @@ function vowelsAndConsonants(s) {
       output_v.sort().push(char);
     };
     if (!VOWELS.includes(char)) {
-      output.sort().push(char)
+      output.push(char)
     };
     arr = output_v.concat(output).join('');
   };
