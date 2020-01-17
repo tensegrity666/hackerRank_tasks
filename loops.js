@@ -10,7 +10,7 @@ function vowelsAndConsonants(s) {
 
   for (let char of s) {
     if (VOWELS.includes(char)) {
-      output_v.sort().push(char);
+      output_v.push(char);
     };
     if (!VOWELS.includes(char)) {
       output.push(char)
