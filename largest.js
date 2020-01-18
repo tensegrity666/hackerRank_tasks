@@ -19,6 +19,6 @@ function getSecondLargest(nums) {
   return number;
 };
 
-const nums = [2, 3, 6, 6, 5];
+const nums = [2, 3, 6, 6, 5, 8, 19, 0, 1, 12, -2, -5, 99, 1234];
 
 getSecondLargest(nums);
