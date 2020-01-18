@@ -12,15 +12,11 @@ function getSecondLargest(nums) {
     if (nums[i] > largest) {
       largest = nums[i];
     };
-  };
-  console.log(largest);
-
-  for (let i = 0; i < nums.length; ++i) {
     if (nums[i] < largest) {
       number = nums[i];
     };
   };
-  console.log(number);
+  return number;
 };
 
 const nums = [2, 3, 6, 6, 5];
